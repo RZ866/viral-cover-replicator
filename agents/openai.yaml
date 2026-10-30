@@ -1,0 +1,7 @@
+interface:
+  display_name: "viral-cover-replicator（爆款封面复刻器）"
+  short_description: "拆解参考封面并指导低成本手机实拍、三轮纠偏与原创封面重构"
+  brand_color: "#A56B46"
+  default_prompt: "使用 $viral-cover-replicator 拆解我上传的封面，生成手机实拍教程和三套差异化原创方案。"
+policy:
+  allow_implicit_invocation: true
