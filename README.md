@@ -24,6 +24,18 @@
 
 ## 安装
 
+支持 `skills` 命令的 Agent 可以直接从 GitHub 安装：
+
+```bash
+npx skills add https://github.com/RZ866/viral-cover-replicator
+```
+
+在支持自主安装 Skill 的 Codex、WorkBuddy 等工具中，也可以直接说：
+
+```text
+帮我安装这个 Skill：https://github.com/RZ866/viral-cover-replicator
+```
+
 把整个目录复制到 `~/.codex/skills/viral-cover-replicator`。不要只复制 `SKILL.md`；保留 `references`、`schemas`、`scripts` 和 `assets`。重新开始一轮 Codex 对话后即可发现。
 
 其他支持 `SKILL.md` 的 Agent 可导入完整目录。图片理解、文件执行和报告预览取决于宿主环境。
